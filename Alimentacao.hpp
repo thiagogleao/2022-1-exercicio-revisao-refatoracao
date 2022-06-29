@@ -3,8 +3,7 @@
 #define VENDA_HPP
 
 #include "Cuidador.hpp"
-
-using namespace std;
+#include <iostream>
 
 class Alimentacao{
 
@@ -15,27 +14,7 @@ class Alimentacao{
     Cuidador cuid;
     string nomeAnimal;
 
-
-    void print() {
-
-        std::cout << "Animal: ";
-        cout << nomeAnimal << "\n";
-
-        std::cout << " Cuidador: ";
-        cout << cuid.NOME << "\n";
-
-        //std::cout << " : ";
-        //cout << ursidae;
-    }
-
-    /*void print() {
-
-        std::cout << "Cuidador: ";
-        cout << cuida;
-
-        std::cout << " Animal: ";
-        cout << alimentado;
-    }*/
+    void print();
 };
 
 #endif
