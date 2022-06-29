@@ -1,12 +1,12 @@
 
-#ifndef VENDA_HPP
-#define VENDA_HPP
+#ifndef ALIMENTACAO_HPP
+#define ALIMENTACAO_HPP
 
 #include "Cuidador.hpp"
 #include <iostream>
 
-class Alimentacao{
-
+class Alimentacao
+{
     public:
     int porcao;
     string comida;
